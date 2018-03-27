@@ -2,3 +2,14 @@
   margin: 0px;
   padding: 0px;
 }
+
+/* Header */
+
+header {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  justify-content: space-between;
+}
+
+/* Top Picture Part */
