@@ -5,11 +5,15 @@
 
 body {
   background-color: rgb(92, 115, 126);
+  font-family: "Trebuchet MS";
+  font-weight: lighter;
 }
 
 /* Header */
 
 header {
+  font-family: "Times New Roman";
+  font-weight: normal;
   width: 100%;
   height: 69px;
   background-color: rgb(127, 198, 164);
@@ -44,18 +48,16 @@ header {
 }
 
 .mission {
+  color: rgb(92, 115, 126);
   width: 1200px;
   background-image: url("../images/img-mission-background.jpg");
-  border-right: 1px solid black;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.test {
+.missionwords {
   width: 1200px;
   height: 88px;
   background-color: rgb(214, 248, 214);
@@ -65,14 +67,65 @@ header {
   align-items: center;
 }
 
-.test h2 {
+.missionwords h2 {
   font-size: 42px;
-  font-family: "Trebuchet MS";
   font-weight: lighter;
 }
 
-.test h4 {
+.missionwords h4 {
   font-size: 22px;
   font-weight: lighter;
-  font-family: "Trebuchet MS"
 }
+
+/* Picture Title Portion */
+
+.teaofthemonth {
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.teaofthemonth h2 {
+  font-size: 36px;
+  font-weight: lighter;
+  margin-bottom: 12px;
+}
+
+.teaofthemonth h4 {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+/* Galley Section */
+
+.gallery {
+  width: 1000px;
+  margin: 0px auto 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic {
+  margin: 0px 16px;
+  margin-bottom: 20px;
+}
+
+.pic img {
+  width: 300px;
+  height: 200px;
+}
+
+.pic p {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* Locations Section */
