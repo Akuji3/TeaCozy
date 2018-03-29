@@ -134,6 +134,10 @@ header {
   height: 200px;
 }
 
+.pic img:hover {
+  box-shadow: 4px 5px;
+}
+
 .pic p {
   color: white;
   text-align: center;
